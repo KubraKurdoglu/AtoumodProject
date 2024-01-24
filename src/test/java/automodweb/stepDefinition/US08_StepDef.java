@@ -1,16 +1,16 @@
 package automodweb.stepDefinition;
 
 import automodweb.pages.ItinerairePage;
-import automodweb.utilities.Driver;
 import automodweb.utilities.ReusableMethods;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
 
 public class US08_StepDef {
 

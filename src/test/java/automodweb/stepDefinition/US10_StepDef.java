@@ -4,13 +4,13 @@ import automodweb.pages.ActualitesPage;
 import automodweb.utilities.ConfigReader;
 import automodweb.utilities.Driver;
 import automodweb.utilities.ReusableMethods;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.Given;
 import org.openqa.selenium.WebElement;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 
 
