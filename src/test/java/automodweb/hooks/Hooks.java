@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class Hooks {
 
-    @Before()
+    @Before("@UI")
 
 
 
@@ -21,7 +21,7 @@ public class Hooks {
     }
 
 
-    @After()
+    @After("@UI")
 
 
 

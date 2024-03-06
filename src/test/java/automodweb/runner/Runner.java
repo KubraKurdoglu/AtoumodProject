@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = {"automodweb/stepDefinition", "automodweb/hooks"},
 
-        tags = "",
+        tags = "@RestFull",
 
         dryRun = false,
         monochrome = true
